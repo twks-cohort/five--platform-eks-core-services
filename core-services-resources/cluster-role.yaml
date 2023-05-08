@@ -22,7 +22,7 @@ metadata:
   name: admin-clusterrolebinding
 subjects:
   - kind: Group
-    name: ThoughtWorks-DPS/twdps-core-labs-team
+    name: twks-cohort/team_five
     apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
